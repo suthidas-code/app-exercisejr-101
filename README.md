@@ -1,16 +1,25 @@
-# React + Vite
+# BFA Exercise Space 101
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ระบบจัดการและคลังแบบฝึกหัด Mind Map ที่พัฒนาด้วย React + Vite และเชื่อมต่อฐานข้อมูลผ่าน Google Apps Script (Spreadsheet & Drive)
 
-Currently, two official plugins are available:
+## 🚀 ฟีเจอร์เด่น
+- **Gallery/List View:** สลับโหมดการแสดงผลแบบตารางหรือรายการได้ตามความต้องการ
+- **Dynamic Filtering:** ค้นหาและกรองแบบฝึกหัดตามกลุ่ม (Group) และระดับ (Level) ได้อย่างรวดเร็ว
+- **Level Classification:** แบ่งระดับแบบฝึกหัดเป็น พื้นฐาน (Basic) และ สูง (Advanced)
+- **Direct Link Previews:** ระบบดึงรูปตัวอย่างจาก Google Drive มาแสดงผลได้อย่างเสถียร
+- **Cloud Storage:** บันทึกข้อมูลลงใน Google Sheets และเก็บไฟล์รูปภาพ/PDF ไว้ใน Google Drive
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ เทคโนโลยีที่ใช้
+- **Frontend:** React 19, Vite, Lucide React (Icons), React Router
+- **Backend:** Google Apps Script (GAS)
+- **Database:** Google Sheets
+- **File Storage:** Google Drive
 
-## React Compiler
+## 📦 การติดตั้งและรันในเครื่อง
+1. Clone repository นี้
+2. รันคำสั่ง `npm install` เพื่อติดตั้ง dependencies
+3. สร้างไฟล์ `.env` และระบุ `VITE_SCRIPT_URL=(URL ของ Apps Script ที่ Deploy แล้ว)`
+4. รันโปรเจกต์ด้วย `npm run dev`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+*พัฒนาโดย Antigravity AI Assistant*
