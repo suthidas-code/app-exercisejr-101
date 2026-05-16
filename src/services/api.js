@@ -1,4 +1,5 @@
 // ดึง URL จาก Environment Variable เพื่อความปลอดภัย
+// Trigger re-build to pick up the new GitHub Secret
 const SCRIPT_URL = import.meta.env.VITE_SCRIPT_URL;
 
 export const saveExercise = async (data) => {
